@@ -1,0 +1,41 @@
+{
+  "name": "Andjoy",
+  "displayName": "Andjoy",
+  "expo": {
+    "name": "Andjoy",
+    "slug": "andjoy",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "https://s3.amazonaws.com/gqxt/images/icon.png",
+    "splash": {
+      "image": "https://s3.amazonaws.com/gqxt/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.ohzone.andjoy",
+      "permissions": [],
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
